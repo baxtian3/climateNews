@@ -1,0 +1,16 @@
+# Ignorar archivos .env en cualquier parte del proyecto
+*.env
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production
+/build
+
+# Misc
+.DS_Store
