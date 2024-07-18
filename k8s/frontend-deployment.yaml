@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-dockerhub-username/frontend:latest
+        image: gcr.io/climatenews/frontend:latest
         ports:
         - containerPort: 3000
 ---
